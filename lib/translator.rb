@@ -13,8 +13,8 @@ end
   library
   end
 
-def get_english_meaning(file, emoji)
-  library = load_library(file)
+def get_english_meaning(file_path, emoji)
+  library = load_library(file_path)
   emoji = library.keys.find do |key|
     libraryp[key][:japanese] ==  emoji
   end
