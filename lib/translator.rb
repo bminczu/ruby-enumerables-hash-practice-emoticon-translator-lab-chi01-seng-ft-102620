@@ -19,3 +19,4 @@ def get_english_meaning(file, emoji)
     libraryp[key][:japanese] ==  emoji
   end
   emoji ? emoji : "Sorry, that emoticon was not found"
+end
