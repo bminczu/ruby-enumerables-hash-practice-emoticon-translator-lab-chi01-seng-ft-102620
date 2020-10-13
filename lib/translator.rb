@@ -16,10 +16,9 @@ end
   def get_english_meaning(file, emoji)
   load_library(file)#
   emoji = library.keys.find do |key|    #code goes here
-  puts "hiii"
   end
 end
-end
+
 binding.pry
 
 #def get_japanese_emoticon
