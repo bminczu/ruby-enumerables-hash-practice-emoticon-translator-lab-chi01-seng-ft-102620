@@ -18,6 +18,7 @@ end
   file.each do |key, value|
   end
 binding.pry
+
 def get_japanese_emoticon
   load_library(file)
   # code goes here
