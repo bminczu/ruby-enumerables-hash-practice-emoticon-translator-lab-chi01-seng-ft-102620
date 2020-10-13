@@ -17,9 +17,8 @@ end
   load_library(file)# code goes here
   file.each do |key, value|
     binding.pry
-    puts "hello world"
   end
-
+binding.pry
 def get_japanese_emoticon
   load_library(file)
   # code goes here
