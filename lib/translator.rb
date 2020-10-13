@@ -20,4 +20,3 @@ emoji = hoh.key.find do |key|
 end
 emoji?  : "Sorry, that emoticon was not found"
 end
-
