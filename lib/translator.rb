@@ -21,6 +21,7 @@ end
     puts "jijh"
     binding.pry
   end
+end
 binding.pry
 
 def get_japanese_emoticon
