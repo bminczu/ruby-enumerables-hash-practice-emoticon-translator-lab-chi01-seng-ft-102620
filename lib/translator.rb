@@ -18,5 +18,5 @@ hoh = load_hoh(file)
 emoji = hoh.key.find do |key|
   hoh[key][:japanese] == emoji
 end
-emoji? emoji : "Sorry, that emoticon was not found"
+emoji ? emoji : "Sorry, that emoticon was not found"
   
