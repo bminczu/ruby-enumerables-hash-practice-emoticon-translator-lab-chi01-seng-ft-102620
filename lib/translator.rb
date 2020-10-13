@@ -15,9 +15,7 @@ end
 
   def get_english_meaning(file, emoji)
   hoh = load_library(file)
-  hoh.each do |key, value|
-    value.each do |origin, emoji|
-      binding.pry #code goes here
+ goes here
   end
 
 binding.pry
