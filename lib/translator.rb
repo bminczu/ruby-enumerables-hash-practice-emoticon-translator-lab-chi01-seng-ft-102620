@@ -20,8 +20,7 @@ end
   end
   emoticon ? library[emoticon][:japanese] : "Sorry, that emoticon was not found"
   end
-end
-end
+
 binding.pry
 
 #def get_japanese_emoticon
