@@ -13,11 +13,9 @@ end
   library
   end
 
-  def get_english_meaning(file_path, emoticon)
-    result = load_library(file_path)['get_meaning'][emoticon]
-    result ? result : "Sorry, that emoticon was not found"
-    library = load_library(file_path)
-    emoticon = library.keys.find do |key|
-      library[key][:japanese] == emoticon
-    end
-    emoticon ? emoticon : "Sorry, that emoticon was not found"
+def get_english_meaning(file, emoji)
+  library = load_library(file)
+  emoji = library.keys.find do |key|
+    libraryp[key][:japanese] ==  emoji
+  end
+  emoji ? emoji : "Sorry, that emoticon was not found"
