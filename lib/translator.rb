@@ -14,12 +14,9 @@ end
   end
 
   def get_english_meaning(file, emoji)
-  hoh = load_library(file)
-  hoh.each do |key, value|
-    value.each do |origin, emoji|
-      if emoji == japemoji
-        puts ley
-      else
-        puts "Sorry, that emoticon was not found"
+hoh = load_hoh(file)
+emoji = hoh.key.find do |key|
+  hoh[key][:japanese] == emoji
+end  
  binding.pry
   end
