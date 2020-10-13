@@ -14,7 +14,7 @@ end
   end
 
   def get_english_meaning(file, emoji)
-  load_library(file)#
+  hoh = load_library(file)#
   emoji = library.keys.find do |key|    #code goes here
   end
 
