@@ -14,7 +14,7 @@ end
   end
 
   def get_english_meaning(file, emoji)
-  hoh = load_library(file)
+  oad_library(file)
  binding.pry
   end
 
