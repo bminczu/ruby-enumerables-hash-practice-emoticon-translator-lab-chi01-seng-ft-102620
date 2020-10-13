@@ -14,7 +14,7 @@ end
   end
 
   def get_english_meaning(file, emoji)
-hoh = load_hoh(file)
+hoh = hoh(file)
 emoji = hoh.key.find do |key|
   hoh[key][:japanese] == emoji
 end
