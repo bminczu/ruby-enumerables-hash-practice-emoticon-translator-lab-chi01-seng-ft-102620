@@ -19,4 +19,4 @@ emoji = hoh.key.find do |key|
   hoh[key][:japanese] == emoji
 end
 emoji? emoji : "Sorry, that emoticon was not found"
-  end
+  
