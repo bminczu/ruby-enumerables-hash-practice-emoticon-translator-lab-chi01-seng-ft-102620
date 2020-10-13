@@ -17,7 +17,6 @@ end
   load_library(file)#
   emoji = library.keys.find do |key|    #code goes here
   end
-end
 
 binding.pry
 
