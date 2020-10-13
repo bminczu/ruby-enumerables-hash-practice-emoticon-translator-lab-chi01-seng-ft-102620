@@ -22,6 +22,7 @@ end
     binding.pry
   end
 end
+end
 binding.pry
 
 def get_japanese_emoticon
